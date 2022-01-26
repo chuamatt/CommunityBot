@@ -76,7 +76,7 @@ module.exports = new MessageHandler(
     await modlog.send({
       embeds: [
         {
-          title: `timeout | case #${caseNumber} | 20 minutes`,
+          title: `timeout | case #${caseNumber} | 20m`,
           description:
             `**Offender:** ${msg.author.tag} <@${msg.author.id}>\n` +
             `**Reason:** ${reason}\n` +
